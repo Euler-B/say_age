@@ -7,7 +7,7 @@ int main() {
   const int anio_actual = 2022;
   const short  mes_actual = 7;
   const short dia_actual = 6;
-  // Step 1: show greetings
+
   printf("\t\t\t\t-----------------------------------------\n");
   printf("\t\t\t\t|                                       |\n");
   printf("\t\t\t\t|            Saludos                    |\n");
@@ -37,7 +37,8 @@ int main() {
       edad--;
     if (mes_de_nacimiento == mes_actual && dia_de_nacimiento < dia_actual)
       edad--;
-    
+
+  // Step 2 Salida de datos   
     printf("\n");
     printf("\t\t\t\t-----------------------------------------\n");
     printf("\t\t\t\t|                                       |\n");
